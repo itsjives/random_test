@@ -1,0 +1,20 @@
+extends ../layout
+
+block content
+
+  div(class = "showContainer")
+    section(class = "row")
+      div(class= "col-md-offset-6 col-md-5")
+        div(class = "editRow")
+          h1 Edit Profile
+          form(method="post" action="/users/#{data.id}/edit")
+            input(required type="text", name="username", value="#{data.username}")
+            br
+            input(required type="password", name="password", placeholder="New password")
+            br
+            input(required type="password", name="confirm", placeholder="Confirm new password")
+            br
+            input(type="submit" value="Submit")
+            br
+          form(method="post", action="/users/#{data.id}/delete")
+            input(type="submit" value="Delete Account")

@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+	div(class = "showContainer")
+		section(class = "row")
+			div(class= "col-md-offset-6 col-md-5")
+				div(class = "showRow")
+					h1 Welcome to Canvas, #{user.username}
+					a(href='/personalDraw/#{user["id"]}')
+						button(type="button" class="newDrawingButton") Create New Drawing
+					h3 Enter Existing Lobby
+					div(class="showLobbyContainer")
+						form(method='get' action='/drawroom/#{user["id"]}')
+							input(type='submit' value='Donk Nation channel')
+					form(method="get" action='/users/#{user["id"]}/edit')
+						input(type="submit" value="Edit Profile" class="editInput")

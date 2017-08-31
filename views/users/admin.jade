@@ -1,0 +1,7 @@
+extend ../layout
+
+block content
+
+  - for users in data
+    button
+      a(href='/users/#{users.id}') #{users["username"]}

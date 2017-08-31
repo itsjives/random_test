@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+  div(class = "loginContainer")
+    section(class = "row")
+      div(class = "col-md-12 indexRow1")
+        h1(class = "loginTitle") Canvas
+    section(class = "row")
+      div(class = "col-md-12 indexRow2")
+        form(method="POST" action="/users/login")
+          p(class="loginRow") Username
+          input(type="text" name="username" placeholder="Enter Username" class="loginRow")
+          br
+          br
+          p(class="loginRow") Password
+          input(type="password" name="password" placeholder="Enter Password" class="loginRow")
+          br
+          input(type="submit" class="logInButton" value="Log In" class="logInInput")     
+    section(class = "row")
+      div(class = "col-md-12 indexRow3")
+        button(class = "registerButton")
+          a(href='/users/new') Register
+        button(class = "skipLoginButton")
+          a(href='/drawings') Skip Login

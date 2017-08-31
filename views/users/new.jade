@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+  div(class = "newContainer")
+    section(class = "row")
+        div(class = "col-md-12 newRow1")
+          h1(class = "newTitle") Create Account
+    section(class = "row")
+        div(class = "col-md-12 newRow2")
+          form(method="post" action="/users/new" class="newForm")
+            p Username
+            input(type="text", name="username", placeholder="Enter Username")
+            br
+            br
+            p Password
+            input(type="password", name="password", placeholder="Enter Password")
+            br
+            br
+            p Confirm Password
+            input(type="password", name="confirm", placeholder="Confirm password")
+            br
+            br
+            input(type="submit" value="Submit" class="newSubmitButton")

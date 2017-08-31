@@ -1,0 +1,242 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a {
+  color: #443730;
+}
+
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+
+.loginContainer {
+  background: url("/images/login_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 100vh;
+}
+
+.loginTitle{
+	color:red;
+	padding-left: 62%;
+	padding-top: 12vh;
+	font-size: 75px;
+	font-family: 'Coming Soon', cursive;
+}
+
+.indexRow1{
+	height:28vh;
+}
+
+.indexRow2{
+	height: 34vh;
+	font-family: 'Coming Soon', cursive;
+	font-size: 18px;
+	color: #3D4849;
+}
+
+.logInInput:hover{
+	color:red;
+}
+
+.loginRow{
+	margin-left: 63.8%;
+}
+
+.indexRow3{
+	font-family: 'Coming Soon', cursive;
+	font-size: 18px;
+}
+
+.logInButton{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	margin-left: 68.5%;
+	margin-top: 3vh;
+}
+
+.registerButton{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	margin-left: 64.5%;
+}
+
+
+.skipLoginButton{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	margin-left: 2%;
+}
+
+
+.newContainer{
+	background: url("/images/login_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.newTitle{
+	color:red;
+	padding-left: 60%;
+	padding-top: 15vh;
+	font-size: 45px;
+	font-family: 'Coming Soon', cursive;
+}
+
+.newForm{
+	margin-top: 1vh;
+	height: 34vh;
+	font-family: 'Coming Soon', cursive;
+	font-size: 18px;
+	color: #3D4849;
+	margin-left: 63%;
+}
+
+.newSubmitButton{
+	color: #493F33
+	border:none;
+
+}
+
+.showContainer{
+	background: url("/images/login_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.showRow{
+	margin-top: 8vh;
+	margin-left: 12%;
+	font-family: 'Coming Soon', cursive;
+	width: 75%;
+}
+
+.showRow button{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	color: red;
+}
+
+.showRow input{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	color: red;
+}
+
+.newDrawingButton{
+	margin-left: 25%;
+	font-size: 20px;
+}
+
+.newDrawingButton:hover{
+	color:blue;
+}
+
+.newSubmitButton{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+}
+
+.newSubmitButton:hover{
+	color:red;
+}
+
+.showLobbyContainer{
+	background-color: lightgrey;
+	height: 58vh;
+}
+
+.editInput{
+	margin-top: 2vh;
+	font-size: 15px;
+}
+
+.editInput:hover{
+	color:blue;
+}
+
+.editRow{
+	margin-top: 8vh;
+	margin-left: 12%;
+	font-family: 'Coming Soon', cursive;
+	width: 75%;
+}
+
+.drawContainer{
+  width: 50%;
+
+}
+#myCanvas{
+  display: inline-block;
+  width: 70%;
+  height: 480px;
+  border: 1px solid black;
+}
+.message_board {
+  display:inline-block;
+  vertical-align: top;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+  white-space:pre-line;
+  width: 25%;
+  height: 480px;
+  border: 1px solid black;
+}
+
+
+#new_message{
+  vertical-align: top;
+  margin-left: 70%;
+}
+
+#new_message input:first-child {
+  width: 80%;
+}
+
+.colors{
+  display: inline-block;
+}
+
+.current {
+  width: 100px;
+}
+
+.color{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: blue;
+}
